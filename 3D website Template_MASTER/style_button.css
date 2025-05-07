@@ -1,0 +1,117 @@
+.container-fluid, .row, .col-sm-10 {
+    padding:0;
+    margin:0;
+    width:100;
+    overflow:visible;
+}
+
+body{
+    padding:0;
+    margin:0;
+
+}
+
+#btn{
+
+    
+    right: 20px;
+    bottom: 10px;
+    background:#fea;
+    padding:15px;
+    font-family: arial;
+    z-index: 1000; 
+    width: 200px;   
+    height: 100px;
+    cursor: pointer;
+
+}
+
+#Rotate{
+
+   
+    right: 200px;
+    bottom: 10px;
+    background:#fea;
+    padding:15px;
+    font-family: arial;
+    z-index: 1000; 
+    width: 200px;   
+    height: 100px;
+    cursor: pointer;
+
+}
+
+#toggleWireframe{
+
+   
+    right: 200px;
+    bottom: 10px;
+    background:#fea;
+    padding:15px;
+    font-family: arial;
+    z-index: 1000; 
+    width: 200px;   
+    height: 100px;
+    cursor: pointer;
+
+}
+
+#switchModel{
+
+    
+    right: 400px;
+    bottom: 10px;
+    background:#fea;
+    padding:15px;
+    font-family: arial;
+    z-index: 1000; 
+    width: 200px;   
+    height: 100px;
+    cursor: pointer;
+
+}
+
+#playSecondModelAnimation{
+
+    
+    right: 600px;
+    bottom: 10px;
+    background:#fea;
+    padding:15px;
+    font-family: arial;
+    z-index: 1000; 
+    width: 200px;   
+    height: 100px;
+    cursor: pointer;
+
+}
+
+
+
+
+#threeContainer{
+    width:100%;
+    height:100vh;
+    display:block;
+    overflow:hidden;
+
+}
+
+#gui-container {
+    position: absolute;
+    top: 120px; 
+    left: 10px; 
+    z-index: 1000; 
+  
+  }
+
+  img {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    }
+    img.clicked {
+    transform: scale(1.5);
+    }
+
+    
+
