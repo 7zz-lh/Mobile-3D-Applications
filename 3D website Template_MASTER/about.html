@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,
+shrink-to-fit=no">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans'
+rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald'
+rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="style.css">
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min
+.css" rel="stylesheet">
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min
+.css" rel="stylesheet" integrity="sha384-
+QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+crossorigin="anonymous">
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundl
+e.min.js" integrity="sha384-
+YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+crossorigin="anonymous"></script>
+<script
+src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.m
+in.js" integrity="sha384-
+I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+crossorigin="anonymous"></script>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.j
+s" integrity="sha384-
+0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/6ac3910c4e.js"
+crossorigin="anonymous"></script>
+<script src="js/bootstrap.js"></script>
+<title>About Page</title>
+</head>
+<body id="bodyColor">
+<nav id="headerColor" class="navbar sticky-top navbar-expand-sm
+navbar_coca_cola">
+<div class="container-fluid">
+<div class="logo">
+<a class="navbar-brand" href="index.html">
+<h1>About</h1>
+</a>
+</div>
+<button type="button" class="navbar-toggler" data-bs-
+toggle="collapse" data-bs-target="#navbarSupportedContent">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse"
+id="navbarSupportedContent">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link active"
+href="index.html">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="about.html" data-
+toggle="popover" data-trigger="hover" data-placement="bottom"
+title="About Web 3D Applications">About</a>
+</li>
+<!-- Dropdown -->
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#"
+id="navbardrop" data-bs-toggle="dropdown">
+Drinks
+</a>
+<div class="dropdown-menu">
+<a class="dropdown-item" href="coke.html">Coca Cola</a>
+<a class="dropdown-item" href="sprite.html">Sprite</a>
+<a class="dropdown-item" href="pepper.html">Dr Pepper</a>
+</div>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#" data-bs-toggle="modal"
+data-bs-target="#contactModal">Contact</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<br>
+<h2>About</h2>
+I created a 3D interactive web experience for showcasing three Coca-Cola products: Coke, Sprite, and Dr Pepper. Each drink features its own unique 3D can model, opening and crushing animations, and matching sound effects. I also added a recycling button to encourage sustainability through fun visual and audio feedback.<div class="mt-4"></div>
+<h2>3D models</h2>
+I designed three separate 3D models in Blender: a can of Coke, a can of Sprite, and a can of Dr Pepper.
+Each can includes two states: open (with an animation of the tab being pulled) and crushed.
+The animations were exported in .glb format and integrated with Three.js.
+
+<div class="container text-center">
+    <div class="row">
+        <div class="col-6">
+            <img src="assets/images/3D model.png" alt="Audition" class="img-fluid" id="image1">
+        </div>
+    </div>
+</div>
+
+<br>
+
+<div class="container text-center">
+    <div class="row">
+        <div class="col-6">
+            <img src="assets/images/crash.png" alt="Audition" class="img-fluid" id="image1">
+        </div>
+    </div>
+</div>
+
+<div class="mt-4"></div>
+<h2>Design</h2>
+<div class="mt-4"></div>
+I used Bootstrap to create a simple layout with a top navigation bar, and I applied custom CSS styles to make each page look a bit different. For example, I gave each drink page its own background color to match the brand, and used Google Fonts like Open Sans and Oswald to make the text look more stylish.
+I also used CSS to make the images responsive and added rounded borders using img-thumbnail and img-fluid. This helps everything look good on both desktop and mobile.
+On top of that, I added small visual effects using JavaScript and CSS – like when you click the Recycle button, the background turns green for a moment and a message pops up to encourage recycling.
+<div class="container text-center">
+    <div class="row">
+        <div class="col-6">
+            <img src="assets/images/main.png" alt="Audition" class="img-fluid" id="image1">
+        </div>
+    </div>
+</div>
+
+<h2>Integration</h2>
+<div class="mt-4"></div>
+I edited audio from the internet in Adobe Audition so that it played in sync with the animations when they loaded and played in my web page.
+I have added images into my landing page and using CSS the image resizes as the screen size resizes.
+
+<div class="container text-center">
+    <div class="row">
+        <div class="col-6">
+            <img src="assets/images/Audition.png" alt="Audition" class="img-fluid" id="image1">
+        </div>
+    </div>
+</div>
+<div class="mt-4"></div>
+
+<h2>Interaction</h2>
+<div class="mt-4"></div>
+I used Bootstrap to create a simple layout with a top navigation bar, and I applied custom CSS styles to make each page look a bit different. For example, I gave each drink page its own background color to match the brand, and used Google Fonts like Open Sans and Oswald to make the text look more stylish.
+I also used CSS to make the images responsive and added rounded borders using img-thumbnail and img-fluid. This helps everything look good on both desktop and mobile.
+On top of that, I added small visual effects using JavaScript and CSS – like when you click the Recycle button, the background turns green for a moment and a message pops up to encourage recycling.
+<div class="container text-center">
+    <div class="row">
+        <div class="col-6">
+            <img src="assets/images/recycle.png" alt="Audition" class="img-fluid" id="image1">
+        </div>
+    </div>
+</div>
+<div class="mt-4"></div>
+<h2>Implementation</h2>
+<div class="mt-4"></div>
+WebGL 3D Rendering with Three.js: load GLB models, set up scene, camera, lights, and animations (open/crash), plus OrbitControls for intuitive interaction.
+<div class="container text-center">
+    <div class="row">
+        <div class="col-6">
+            <img src="assets/images/wireframe.png" alt="Audition" class="img-fluid" id="image1">
+        </div>
+    </div>
+</div>
+<div class="mt-4"></div>
+Live Debug & Tweaks via dat.GUI: expose light parameters (color, angle, distance, movement) for on-the-fly adjustments.
+<div class="container text-center">
+    <div class="row">
+        <div class="col-6">
+            <img src="assets/images/GLB.png" alt="Audition" class="img-fluid" id="image1">
+        </div>
+    </div>
+</div>
+<div class="mt-4"></div>
+Responsive UI with Bootstrap 5 and Font Awesome: modern layout, styled buttons for “Open”, “Rotate”, “Switch Model”, “Wireframe” and “Recycle,” plus audio feedback for a polished user experience.
+<div class="container text-center">
+    <div class="row">
+        <div class="col-6">
+            <img src="assets/images/button.png" alt="Audition" class="img-fluid" id="image1">
+        </div>
+    </div>
+</div>
+<div class="mt-4"></div>
+<h2>Deeper Understanding</h2>
+<div class="mt-4"></div>
+This 3D web app is built on Three.js for all scene, camera, light and WebGL rendering, with GLTFLoader to import and animate .glb models and OrbitControls to let users orbit, pan, and zoom the view. We use dat.GUI for a live tweak panel (lighting, materials, etc.), Bootstrap and Font Awesome for responsive layout and icons, and the Web Audio API (via Three.AudioListener & AudioLoader) to play sound effects. All interactions—opening, rotating, switching, wireframe toggles and recycle prompts—are wired up through standard JavaScript event listeners, and you can optionally layer in custom GLSL shaders for extra visual flair.
+<div class="mt-4"></div>
+<h2>Implementation and Publication</h2>
+<div class="mt-4"></div>
+<p>I’ve created a dedicated “About” page to explain the features and design of the 3D application.</p>
+<p>The entire site has been packaged into a ZIP archive; I confirmed that, when unzipped, it opens and runs flawlessly in Visual Studio Code.</p>
+<p>You can browse the full source code on GitHub:  
+  <a href="https://github.com/7zz-lh/Mobile-3D-Applications" target="_blank" rel="noopener">
+    github.com/7zz-lh/Mobile-3D-Applications
+  </a>
+</p>
+<div class="mt-4"></div>
+
+
+<script>
+    document.querySelectorAll('img').forEach(img => {
+    img.addEventListener('click', function() {
+    this.classList.toggle('clicked');
+    });
+    });
+    </script>
+
+
+
+<br>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<div class="container-fluid">
+<div class="navbar-text float-left copyright">
+<p><span class="align-baseline"></span>&copy 2024 3D Web
+Applications</p>
+</div>
+<div class="navbar-text float-right social">
+<a href="https://www.facebook.com/CocaCola"><i class="fab fa-facebook-square fa-2x"></i></a>
+<a href="https://x.com/CocaCola"><i class="fab fa-twitter fa-2x"></i></a>
+<a href="https://x.com/CocaCola"><i class="fab fa-google-plus fa-2x"></i></a>
+<a href="https://github.com/7zz-lh/Mobile-3D-Applications"><i class="fab fa-github-square fa-2x"></i></a>
+</div>
+</div>
+</nav>
+
+
+</body>
+</html>
